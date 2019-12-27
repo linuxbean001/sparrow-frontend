@@ -1,0 +1,26 @@
+.simple-modal-container {
+  position: relative;
+}
+
+.simple-modal-icon {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 61px;
+  position: relative;
+  display: block;
+}
+
+.simple-modal-container .simple-modal-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--color-primary-dark);
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+}

@@ -1,0 +1,166 @@
+.settings-container {
+  width: calc(100% - 102px);
+  padding-left: 72px;
+  padding-top: 15px;
+  position: relative;
+}
+
+.settings-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  color: #393d6c;
+}
+
+.settings-card {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  position: relative;
+  padding-top: 51px;
+  padding-left: 57px;
+}
+
+.settings-card .setting-description {
+  width: 347px;
+}
+
+.settings-card .settings-group-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #393d6c;
+}
+
+.settings-group .settings-meta {
+  width: 450px;
+  display: inline-block;
+}
+
+.settings-group .settings-values {
+  float: right;
+  margin-right: 180px;
+}
+
+.settings-card hr {
+  border: solid 1px #e3e6e7;
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+
+.settings-group.last hr {
+  border: 0px;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.form-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: #4951b9;
+  height: 30px;
+  width: 30px;
+  border: solid 1px #4951b9;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 20px;
+  outline: none;
+}
+.form-radio:checked::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #4951b9;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
+.form-radio:hover {
+  background-color: #f7f7f7;
+}
+.form-radio:checked {
+  background-color: #ffffff;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #2e2e38;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+.radio-field {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.radio-field label {
+  display: flex;
+  align-items: center;
+}
+
+.setting-container--setting .settings-card {
+  padding: 51px 57px;
+}
+.setting-container--setting .settings-group .settings-meta {
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+.setting-container--setting .settings-card .settings-group-header {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.setting-container--setting .settings-card .setting-description {
+  width: auto;
+  max-width: 347px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  color: #6c6d77;
+}
+.setting-container--setting .settings-group .settings-values {
+  float: left;
+  margin-right: 0;
+  width: 60%;
+  padding: 0px 70px;
+}
+.setting-container--setting button.Button {
+  border-radius: 2px;
+  background-color: #4951b9;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px;
+  height: 50px;
+}

@@ -1,0 +1,46 @@
+.Modal__box {
+  width: 517px;
+  min-height: 362px;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+  border: solid 1px var(--color-border-2);
+  background-color: var(--color-white);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.Modal {
+  display: flex;
+  background-color: transparent;
+  max-width: 798px;
+  align-items: center;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.Modal__wrapper {
+  border-radius: 4px;
+  padding: 33px;
+  background-color: var(--color-white);
+  width: 100%;
+  position: relative;
+}
+
+.Modal__closeButton {
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  top: -12px;
+  right: -12px;
+}
+
+.Modal__hidden {
+  display: none;
+}

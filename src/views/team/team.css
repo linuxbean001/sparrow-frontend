@@ -1,0 +1,176 @@
+.team-container {
+  width: calc(100% - 102px);
+  padding-left: 72px;
+  padding-top: 15px;
+  position: relative;
+}
+
+.team-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  color: var(--color-primary-dark);
+  float: left;
+}
+
+.team-table {
+  margin-top: 18px;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+  border: solid 1px var(--color-border-2);
+  background-color: var(--color-white);
+  width: 100%;
+}
+
+.team-table th {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.92;
+  letter-spacing: normal;
+  color: var(--color-primary-light);
+  text-align: left;
+  padding-left: 35px;
+  text-transform: uppercase;
+}
+
+.team-table td {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.53;
+  letter-spacing: normal;
+  color: var(--color-primary-dark);
+  padding-left: 35px;
+  text-transform: uppercase;
+}
+
+.team-table a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+  color: var(--color-primary);
+}
+
+.team-container .no-team-container {
+  border-radius: 5px;
+  box-shadow: var(--shadow-card);
+  background-color: var(--color-white);
+  clear: both;
+  position: relative;
+  height: 511px;
+}
+
+.team-container .no-team-container .no-team-subcontainer {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  width: 500px;
+  text-align: center;
+}
+
+.team-container .no-team-container .no-team-subcontainer .no-team-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: var(--color-text-dark);
+}
+
+.team-container .no-team-container .no-team-subcontainer .no-team-sub-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.53;
+  letter-spacing: normal;
+  color: var(--color-text-gray);
+}
+
+.add-team-modal .add-team-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: var(--color-primary-dark);
+}
+
+.add-team-modal {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.add-team-modal .social-connectors {
+  width: 380px;
+  height: 291px;
+  border-radius: 2px;
+  border: solid 1px var(--color-light-gray);
+  background-color: var(--color-white);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.add-team-modal .social-connector-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: var(--color-text-dark);
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.client-selector input[type='checkbox'] {
+  width: 30px;
+  height: 30px;
+}
+
+.client-name-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.53;
+  letter-spacing: normal;
+  color: var(--color-text-dark);
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  margin-left: 5px;
+}
+
+.add-team-modal .remove-cta {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}

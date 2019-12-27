@@ -1,0 +1,108 @@
+.dashboard .logo {
+    margin: 0 auto;
+    height: auto;
+    width: 34px;
+}
+.leftbar {
+    padding-top: 18px;
+    height: 100vh;
+    overflow-y: auto;
+}
+.leftbar .accounts-button {
+    margin-top: 26px;
+}
+.leftbar .account-icon {
+    width: 45px;
+    height: 45px;
+}
+.dashboard .topbar {
+    width: calc(100% - 98px);
+    border-bottom: 1px solid #edf0f4;
+}
+.setting-container--profile .settings-card .settings-group-header {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.setting-container--profile .settings-card .setting-description {
+    width: auto;
+    max-width: 347px;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    letter-spacing: normal;
+    color: #6c6d77;
+}
+.setting-container--profile .settings-card {
+    padding: 51px 57px;
+}
+.setting-container--profile .settings-group .settings-meta {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+.setting-container--profile .settings-group .settings-values {
+    float: left;
+    margin-right: 0;
+    width: 60%;
+    padding: 0px 70px;
+}
+.setting-container--profile button.Button {
+    border-radius: 2px;
+    background-color: #4951b9;
+    width: 100%;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px;
+    height: 50px;
+}
+.profile__img img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+.upload--logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+ul.profile__anchor__content {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+ul.profile__anchor__content li a {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #5359c5;
+    margin: 0;
+    padding: 0px 10px;
+}
+
+/* Mobile responsive Media Query */
+@media only screen and (max-width: 1199px) {
+.setting-container--profile .settings-group .settings-values {
+    width: 60%;
+    padding: 0px 20px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+.setting-container--profile .settings-card {
+    padding: 51px 15px;
+}
+}

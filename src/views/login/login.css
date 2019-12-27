@@ -1,0 +1,16 @@
+.Login__formBox h1 {
+  margin-bottom: 50px;
+}
+
+.Login__forgotPasswordLink {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-primary);
+}
+
+.Login__signupLink {
+  text-align: center;
+  color: var(--color-link-dark);
+  margin-top: 20px;
+}

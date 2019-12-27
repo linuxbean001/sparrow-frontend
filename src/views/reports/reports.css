@@ -1,0 +1,241 @@
+.ReportsView {
+  padding: 56px 148px 72px 60px;
+}
+
+.ReportView__header {
+  font-size: 35px;
+  line-height: 1.09;
+  margin-bottom: 28px;
+}
+
+.ReportView__subHeader {
+  margin-bottom: 18px;
+}
+
+.ReportView__reportCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ReportView__tabs {
+  display: block;
+  height: 38px;
+  position: relative;
+}
+
+.ReportView__tabs .ReportView__tabsBackground {
+  border-bottom: 1px solid #eceafa;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.ReportView__tabs .ReportView__tab--active {
+  position: relative;
+  color: #4951b9;
+  height: 100%;
+  min-width: 112px;
+  display: inline-block;
+  border-bottom: solid 1px #393d6c;
+  z-index: 2;
+}
+
+.ReportView__reportsTable {
+  margin-top: 18px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #ebecf5;
+  background-color: var(--color-white);
+  width: 100%;
+  border-collapse: collapse;
+}
+.ReportView__reportsTable th {
+  font-size: 13px;
+  line-height: 2.92;
+  color: #979bcc;
+  text-align: left;
+  padding-left: 35px;
+  text-transform: uppercase;
+}
+.ReportView__reportsTable tbody tr {
+  border: solid 1px #eceafa;
+  padding: 10px 0;
+}
+.ReportView__reportsTable td {
+  font-size: 15px;
+  line-height: 2.53;
+  color: #393d6c;
+  padding: 10px 0 10px 35px;
+}
+
+.ReportView__reportsTable tr th:first-child {
+  max-width: 400px;
+}
+
+.ReportView__reportFilter {
+  position: relative;
+}
+
+.ReportView__reportFilter select {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.ReportView__reportFilter .ReportView__reportFilterWrapper {
+  margin-top: 18px;
+  display: inline-block;
+  margin-right: 23px;
+}
+
+.ReportView__reportGenerateButton {
+  border-radius: 3.4px;
+  border: solid 1px #4951b9;
+  background-color: var(--color-white);
+  display: flex;
+  align-content: middle;
+  justify-content: center;
+  padding: 9px 13px;
+  font-size: 13px;
+}
+
+.ReportView__reportGenerateButton img {
+  margin-right: 8px;
+}
+
+.ReportModal__header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #393d6c;
+  padding-bottom: 10px;
+}
+
+.ReportInfoCard__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ReportInfoCard {
+  border-radius: 4px;
+  border: solid 1px #eceafa;
+  background-color: #ffffff;
+  display: flex;
+  margin-top: 17px;
+  cursor: pointer;
+  padding: 21px 24px;
+  flex-basis: 40%;
+}
+
+.ReportInfoCard:nth-child(even) {
+  margin-left: 20px;
+}
+.ReportInfoCard:hover {
+  border: solid 1px #4951b9;
+}
+
+.ReportType__header {
+  font-size: 18px;
+  font-weight: 500;
+  color: #393d6c;
+  display: flex;
+}
+
+.ReportType__icon {
+  width: 70px;
+}
+
+.ReportInfoCard__date {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #8a91e6;
+}
+
+.ReportInfoCard__info {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.ReportView--selectMonthly{ width:191px; }
+.ReportView--selectMonthly .css-yk16xz-control {
+    border-radius: 4px;
+    border: solid 1px #acb0b3;
+    background-color: #ffffff;
+    min-width: 191px !important;
+    width: 191px !important;
+    height: 42px;
+}
+.ReportView--selectMonthly .css-1wa3eu0-placeholder {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.53;
+    letter-spacing: normal;
+    color: #393d6c;
+}
+.ReportView--selectMonthly .css-tlfecz-indicatorContainer {
+    color: #4951b9;
+}
+.ReportView--selectMonthly .css-1okebmr-indicatorSeparator{
+    display: none;
+}
+
+.ReportView--selectYearly .css-1uccc91-singleValue,.ReportView--selectMonthly  .css-1uccc91-singleValue{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.53;
+  letter-spacing: normal;
+  color: #393d6c !important;
+}
+.ReportView--selectYearly{  width:132px;  }
+.ReportView--selectYearly .css-yk16xz-control {
+    border-radius: 4px;
+    border: solid 1px #acb0b3;
+    background-color: #ffffff;
+    min-width: 132px !important;
+    width: 132px !important;
+    height: 42px;
+}
+.ReportView--selectYearly .css-1wa3eu0-placeholder {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.53;
+    letter-spacing: normal;
+    color: #393d6c;
+}
+.ReportView--selectYearly .css-tlfecz-indicatorContainer {
+    color: #4951b9;
+}
+.ReportView--selectYearly .css-1okebmr-indicatorSeparator{
+    display: none;
+}
+
+@media screen and (max-width: 64em) {
+  .ReportInfoCard {
+    flex-basis: 100%;
+  }
+  .ReportInfoCard:nth-child(even) {
+    margin-left: 0;
+  }
+}

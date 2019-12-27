@@ -1,0 +1,238 @@
+.LeftNav {
+  border-right: solid 1px var(--color-border-bar);
+  background-color: var(--color-white);
+  height: 100%;
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.LeftNav__link {
+  width: 100%;
+  padding: 18px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LeftNav__imageWrapper {
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.LeftNav__link.active .LeftNav__imageWrapper {
+  border: 1px solid var(--color-primary);
+}
+
+.LeftNav__link img {
+  height: 34px;
+  width: 34px;
+}
+
+.LeftNav__label {
+  font-size: 11px;
+  margin-top: 6px;
+}
+
+.LeftNav__clientListWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.LeftNav__clientList {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 17px;
+  box-sizing: content-box;
+}
+
+.dashboard {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard .logo {
+  margin-top: 0;
+  width: 36px;
+}
+
+.dashboard .topbar {
+  width: calc(100% - 100px);
+  height: 59px;
+  border-bottom: solid 1px var(--color-border-bar);
+  background-color: var(--color-white);
+  float: right;
+  position: relative;
+}
+
+.dashboard a.active {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: var(--color-link);
+}
+
+.dashboard a {
+  color: var(--color-primary-dark);
+}
+
+.dashboard .nav {
+  top: 21px;
+  position: absolute;
+  left: 75px;
+}
+
+.notification-settings {
+  top: 16px;
+  position: absolute;
+  right: 30px;
+  display: inline-block;
+}
+
+.profile-dropdown {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.profile-dropdown .profile-thumb {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  border: solid 1px #979797;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.profile-dropdown .dropdown-arrow {
+  display: inline-block;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.notification-settings .username {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.notification-icon-container {
+  top: -4px;
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  display: block;
+  left: 98px;
+  top: 60px;
+  position: absolute;
+  width: calc(100% - 98px);
+  height: calc(100% - 60px);
+  overflow: auto;
+}
+
+.content .notification {
+  width: 100%;
+  height: 48px;
+  background-color: #f7b502;
+  position: realtive;
+}
+
+.notification .notification-content {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.notification-content .reconnect-button {
+  width: 173px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #765600;
+  border: 1px solid #765600;
+  color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  margin-left: 10px;
+}
+
+.profile-tooltip {
+  width: 191px;
+  height: 216px;
+  box-shadow: var(--shadow-tooltip);
+  border: solid 1px var(--color-border-tooltip);
+  background-color: var(--color-white);
+  position: absolute;
+  right: 20px;
+  top: 56px;
+  z-index: 99;
+}
+
+.profile-tooltip .tooltiptext::after {
+  content: ' ';
+  position: absolute;
+  bottom: 100%; /* At the top of the tooltip */
+  right: 10px;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent var(--color-white) transparent;
+}
+
+.profile-tooltip .tooltipthingy::after {
+  content: ' ';
+  position: absolute;
+  bottom: 100%; /* At the top of the tooltip */
+  right: 8px;
+  margin-left: -10px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: transparent transparent var(--color-border-tooltip) transparent;
+}
+
+.hidden {
+  display: none;
+}
+
+.profile-tooltip a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-light);
+  width: 100%;
+  display: block;
+  padding-left: 20px;
+  height: calc(216px / 4);
+  line-height: calc(216px / 4);
+}

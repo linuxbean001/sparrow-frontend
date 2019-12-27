@@ -1,0 +1,133 @@
+.AddSocialAccounts__subHeader {
+  line-height: 1.6;
+  text-align: center;
+  color: var(--color-text-gray);
+}
+
+.AddSocialAccounts__connectAccountHeader {
+  line-height: 1.38;
+  color: var(--color-text-gray);
+  margin: 25px auto 15px;
+  text-transform: uppercase;
+}
+
+.AddSocialAccounts__listWrapper {
+  border-radius: 2px;
+  border: solid 1px var(--color-border-1);
+  background-color: var(--color-white);
+}
+
+.AddSocialAccounts__listItem {
+  display: flex;
+  border-bottom: solid 1px var(--color-border-2);
+  align-items: center;
+  padding: 17px 24px;
+  justify-content: space-between;
+}
+
+.AddSocialAccounts__listItemSubTitle {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #777882;
+  padding-left: 10px;
+}
+
+.AddSocialAccounts__listItem .AddSocialAccounts__listItemSubTitle {
+  display: none;
+}
+
+.AddSocialAccounts__socialItemInfo {
+  display: flex;
+  align-items: center;
+}
+
+.AddSocialAccounts__listItem--has-subTitle .AddSocialAccounts__socialItemInfo {
+  align-items: flex-start;
+}
+
+.AddSocialAccounts__listItem--has-subTitle
+  .AddSocialAccounts__listItemSubTitle {
+  display: block;
+}
+
+.AddSocialAccounts__listItem--has-subTitle .AddSocialAccounts__listItemAction {
+  display: none;
+}
+
+.AddSocialAccounts__listItem--has-pages .AddSocialAccounts__listItemSubTitle {
+  display: none;
+}
+
+.AddSocialAccounts__listItem--has-pages .AddSocialAccounts__listItemAction {
+  display: block;
+}
+
+.AddSocialAccounts__listItem:last-of-type {
+  border-bottom: none;
+}
+
+.AddSocialAccounts__listItemIcon img {
+  width: 24px;
+  height: 24px;
+  vertical-align: center;
+}
+
+.AddSocialAccounts__listItemTitleWrapper {
+  flex-direction: column;
+}
+
+.AddSocialAccounts__listItemTitle {
+  font-size: 15px;
+  color: var(--color-text-dark);
+  padding-left: 10px;
+}
+
+.AddSocialAccounts__listItemSubTitle a {
+  color: var(--color-primary);
+  font-size: inherit;
+  display: inline-block;
+}
+
+.AddSocialAccounts__listItem--disabled {
+  background-color: #f6f6f9;
+}
+
+.AddSocialAccounts__listItemAction select {
+  border-radius: 4px;
+  width: 200px;
+  height: 40px;
+  line-height: 2.33;
+  color: var(--color-text-dark);
+}
+
+button.AddSocialAccounts__connectButton {
+  width: 75px;
+  padding: 4px;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+button.AddSocialAccounts__connectButton--coming-soon {
+  font-size: 10.5px;
+  color: var(--color-light-gray);
+  padding: 4px 18px;
+  border-radius: 11px;
+  width: auto;
+  border: none;
+  background-color: var(--color-white);
+  cursor: text;
+  line-height: 1.2;
+}
+
+.AddSocialAccounts__continueButton {
+  margin-top: 40px;
+  padding: 16px 0;
+}
+
+.AddSocialAccounts__anotherClient {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}

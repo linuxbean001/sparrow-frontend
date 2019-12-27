@@ -1,0 +1,51 @@
+.FormSection:not(:last-of-type):after {
+  content: '';
+  display: block;
+  margin: 0 50px;
+  border-bottom: solid 1px #e3e6e7;
+}
+
+.FormSection__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 55px 50px;
+}
+
+.FormSection__left,
+.FormSection__right {
+  flex-basis: 100%;
+}
+
+.FormSection__title {
+  margin: 0 0 16px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: var(--color-primary-dark);
+}
+
+.FormSection__description {
+  font-size: 15px;
+  line-height: 1.73;
+  color: var(--color-text-gray);
+}
+
+@media (min-width: 64em) {
+  .FormSection__inner {
+    justify-content: flex-start;
+  }
+
+  .FormSection__left {
+    margin-right: 10%;
+  }
+
+  .FormSection__left {
+    flex-basis: 34%;
+  }
+
+  .FormSection__right {
+    flex-basis: 44%;
+  }
+}
